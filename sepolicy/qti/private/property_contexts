@@ -61,6 +61,10 @@ oplus.goodix.fp       u:object_r:system_fingerprint_prop:s0
 oplus.optical.        u:object_r:system_fingerprint_prop:s0
 persist.sys.fp.       u:object_r:system_fingerprint_prop:s0
 
+# Fs-verity
+pm.dexopt.dm.require_fsverity		    u:object_r:exported_pm_prop:s0
+pm.dexopt.dm.require_manifest		    u:object_r:exported_pm_prop:s0
+
 # Logging
 persist.al.cfr.loglevel             u:object_r:exported_system_prop:s0
 persist.sys.assert.panic            u:object_r:exported_system_prop:s0
